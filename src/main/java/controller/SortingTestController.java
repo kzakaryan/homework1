@@ -11,10 +11,10 @@ public class SortingTestController {
     public static void runTests() {
         SortingTestController controller = new SortingTestController();
         controller.testInsertionSort();
-        controller.testSelectionSort();
-        controller.testBubbleSort();
-        controller.testMergeSort();
-        controller.testQuickSort();
+        testSelectionSort();
+        testBubbleSort();
+        testMergeSort();
+        testQuickSort();
     }
 
     // Test Insertion Sort
